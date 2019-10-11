@@ -4,7 +4,7 @@
           "http://hibernate.sourceforge.net/hibernate-configuration-5.3.dtd">
 
 <hibernate-mapping>
-	<class name="com.javatpoint.mypackage.Employee" table="emp1000">
+	<class name="com.hibernate.Employee" table="emp1000">
 		<id name="id">
 			<generator class="assigned"></generator>
 		</id>
